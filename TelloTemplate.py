@@ -61,10 +61,9 @@ try:
 
         sendmsg('forward 200')
 
-        
-
-
-
+        sendmsg('up 55')
+        sendmsg('forward 50')
+        sendmsg('cw 180')
 
 
         sendmsg('land')
