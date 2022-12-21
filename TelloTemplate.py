@@ -46,7 +46,7 @@ recvThread.start()
 
 print("\nJake Harback")
 print("Program Name: Squares And Triangles ")
-print("Date: ")
+print("Date: 12.21.22")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
