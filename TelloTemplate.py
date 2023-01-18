@@ -74,11 +74,12 @@ try:
 
         # Third
         sendmsg('ccw 180')
-        sendmsg('curve -40 -25 0 -20 -300 0 30')
-        sendmsg('forward 150', 8)
+        sendmsg('curve -40 -25 0 -20 -300 0 30', 8)
+        sendmsg('forward 275', 8)
 
         # Fourth
-        sendmsg('200 10 -70 50')
+        sendmsg('go 210 10 -70 50', 8)
+        sendmsg('forward 100')
 
 
         sendmsg('land')
